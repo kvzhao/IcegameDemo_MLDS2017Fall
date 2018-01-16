@@ -1,5 +1,7 @@
 # Emergence of Loop Algorithm from exploration of Ice Configuration
-The final project of ADLxMLDS 2017 Fall in NTU.
+The final project of ADLxMLDS 2017 Fall in NTU.  
+
+TEAM: CooperPair  
 
 ## Introduction
 
@@ -24,7 +26,7 @@ For Mac OSX, we need to install extra boost-python library.
 ```
 brew install cmake boost-python
 ```
-for more https://github.com/TNG/boost-python-examples
+for more details, please refer to https://github.com/TNG/boost-python-examples
 
 ## Installation
 1. Compile libicegame
@@ -51,7 +53,7 @@ cd rlloop
 sh download.sh
 ```
 
-Now, play it
+Now, we can play with it.
 ```
 python2.7 play_icegame.py --log-dir saved_model
 ```
@@ -64,3 +66,4 @@ python train_with_monitor.py -w 8 -l logs/my_task
 ```
 
 ## Experiment Settings
+For training, it takes about 3 days on 12 cpu cores.
